@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+body {
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 1.3em;
+    padding: 0.5em;
+    margin: 1em;
+    text-align: center;
+    background-image: url(./christmas-wallpapers.jpg);
+    background-size: cover;
+}
+
+/* TITOLO */
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 4em;
+    color: goldenrod;
+    text-shadow: 5px 1px 1px rgba(0,0,0,0.68);
+}
+/* FORM */
+form {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+label {
+    display: block;
+    font-size: 1.8em;
+    color: goldenrod;
+    text-shadow: -2px 1px 1px rgba(0,0,0,0.6);
+    margin-bottom: 0.5em;
+}
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    border-width: 6px;
+    border-color: #e8a41d;
+    border-style: double;
+    border-radius: 12px;
+    box-shadow: 5px 0px 14px rgba(66,66,66,.86);
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #e8a41d;
+    border: 0;
+}
+
+/* LISTA */
+
+#list {
+    background-image: url(./czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMDI1OTE1LWltYWdlLWpvYjY1NF8xLWwwdWJ1NTV3LmpwZw.webp);
+    background-size: cover;
+    padding: 1em
+}
+
+ #list div {
+    margin: 0.5em;
+
+}
+
+#list li {
+    list-style-type: none;
+ }
